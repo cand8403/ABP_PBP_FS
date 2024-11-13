@@ -1,0 +1,562 @@
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+abp.kcal ~ s(Year, k = 50) + s(Country, bs = "re")
+
+Estimated degrees of freedom:
+ 2.79 89.35  total = 93.14 
+
+GCV score: 835.1862     
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+pbp.kcal ~ s(Year, k = 50) + s(Country, bs = "re")
+
+Estimated degrees of freedom:
+ 2.07 82.60  total = 85.67 
+
+GCV score: 413.3262     
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+protein.kcal ~ s(Year, k = 50) + s(Country, bs = "re")
+
+Estimated degrees of freedom:
+ 2.65 87.68  total = 91.33 
+
+GCV score: 1100.909     
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+abp.kcal ~ s(Year, k = 50) + s(Country, bs = "re")
+
+Parametric coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  160.859      3.407   47.21   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+              edf  Ref.df     F p-value    
+s(Year)     2.789   3.487 348.5  <2e-16 ***
+s(Country) 89.349 100.000 145.1  <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.888   Deviance explained = 89.3%
+GCV = 835.19  Scale est. = 593.35    n = 2000
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+pbp.kcal ~ s(Year, k = 50) + s(Country, bs = "re")
+
+Parametric coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  171.968      1.773   96.99   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+              edf  Ref.df     F  p-value    
+s(Year)     2.075   2.593 13.49 1.07e-06 ***
+s(Country) 82.595 100.000 49.70  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.726   Deviance explained = 73.8%
+GCV = 413.33  Scale est. = 302.67    n = 2000
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+protein.kcal ~ s(Year, k = 50) + s(Country, bs = "re")
+
+Parametric coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  334.075      3.588   93.11   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+              edf  Ref.df      F p-value    
+s(Year)     2.653   3.316 233.37  <2e-16 ***
+s(Country) 87.679 100.000  97.02  <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.844   Deviance explained = 85.1%
+GCV = 1100.9  Scale est. = 787.92    n = 2000
+
+Method: GCV   Optimizer: magic
+Smoothing parameter selection converged after 8 iterations.
+The RMS GCV score gradient at convergence was 0.0001334732 .
+The Hessian was positive definite.
+Model rank =  151 / 151 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+               k'    edf k-index p-value
+s(Year)     49.00   2.79    1.09       1
+s(Country) 101.00  89.35      NA      NA
+
+Method: GCV   Optimizer: magic
+Smoothing parameter selection converged after 6 iterations.
+The RMS GCV score gradient at convergence was 0.0004490128 .
+The Hessian was positive definite.
+Model rank =  151 / 151 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+               k'    edf k-index p-value  
+s(Year)     49.00   2.07    0.95    0.02 *
+s(Country) 101.00  82.60      NA      NA  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Method: GCV   Optimizer: magic
+Smoothing parameter selection converged after 6 iterations.
+The RMS GCV score gradient at convergence was 0.0455385 .
+The Hessian was positive definite.
+Model rank =  151 / 151 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+               k'    edf k-index p-value
+s(Year)     49.00   2.65    1.05    0.98
+s(Country) 101.00  87.68      NA      NA
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+abp.kcal ~ s(GDP, k = 50) + s(Country, bs = "re")
+
+Estimated degrees of freedom:
+ 7.81 81.04  total = 89.85 
+
+GCV score: 697.0593     
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+pbp.kcal ~ s(GDP, k = 50) + s(Country, bs = "re")
+
+Estimated degrees of freedom:
+ 6.57 85.37  total = 92.95 
+
+GCV score: 353.6144     
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+protein.kcal ~ s(GDP, k = 50) + s(Country, bs = "re")
+
+Estimated degrees of freedom:
+ 7.76 82.33  total = 91.09 
+
+GCV score: 951.2132     
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+abp.kcal ~ s(GDP, k = 50) + s(Country, bs = "re")
+
+Parametric coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  186.044      2.219   83.86   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+              edf  Ref.df     F p-value    
+s(GDP)      7.814   9.793 262.4  <2e-16 ***
+s(Country) 81.041 100.000  43.2  <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.905   Deviance explained =   91%
+GCV = 697.06  Scale est. = 501.89    n = 2000
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+pbp.kcal ~ s(GDP, k = 50) + s(Country, bs = "re")
+
+Parametric coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  169.132      1.862   90.83   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+              edf  Ref.df     F p-value    
+s(GDP)      6.573   8.243 46.30  <2e-16 ***
+s(Country) 85.374 100.000 59.34  <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.772   Deviance explained = 78.3%
+GCV = 353.61  Scale est. = 251.42    n = 2000
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+protein.kcal ~ s(GDP, k = 50) + s(Country, bs = "re")
+
+Parametric coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  354.777      2.712   130.8   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+              edf  Ref.df      F p-value    
+s(GDP)      7.756   9.722 165.70  <2e-16 ***
+s(Country) 82.335 100.000  42.18  <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.865   Deviance explained = 87.1%
+GCV = 951.21  Scale est. = 681.45    n = 2000
+
+Method: GCV   Optimizer: magic
+Smoothing parameter selection converged after 6 iterations.
+The RMS GCV score gradient at convergence was 0.0005279371 .
+The Hessian was positive definite.
+Model rank =  151 / 151 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+               k'    edf k-index p-value
+s(GDP)      49.00   7.81    0.99    0.26
+s(Country) 101.00  81.04      NA      NA
+
+Method: GCV   Optimizer: magic
+Smoothing parameter selection converged after 5 iterations.
+The RMS GCV score gradient at convergence was 0.009180326 .
+The Hessian was positive definite.
+Model rank =  151 / 151 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+               k'    edf k-index p-value
+s(GDP)      49.00   6.57    1.04    0.94
+s(Country) 101.00  85.37      NA      NA
+
+Method: GCV   Optimizer: magic
+Smoothing parameter selection converged after 6 iterations.
+The RMS GCV score gradient at convergence was 0.002055664 .
+The Hessian was positive definite.
+Model rank =  151 / 151 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+               k'    edf k-index p-value
+s(GDP)      49.00   7.76    0.99    0.34
+s(Country) 101.00  82.34      NA      NA
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+abp.kcal ~ s(carb.kcal, k = 50) + s(Country, bs = "re")
+
+Estimated degrees of freedom:
+ 2.53 84.91  total = 88.43 
+
+GCV score: 1285.501     
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+pbp.kcal ~ s(carb.kcal, k = 50) + s(Country, bs = "re")
+
+Estimated degrees of freedom:
+ 6.07 85.08  total = 92.15 
+
+GCV score: 114.5132     
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+protein.kcal ~ s(carb.kcal, k = 50) + s(Country, bs = "re")
+
+Estimated degrees of freedom:
+ 2.05 84.75  total = 87.8 
+
+GCV score: 1396.705     
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+abp.kcal ~ s(carb.kcal, k = 50) + s(Country, bs = "re")
+
+Parametric coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  165.894      3.456      48   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+                edf  Ref.df     F p-value    
+s(carb.kcal)  2.526   3.227 39.42  <2e-16 ***
+s(Country)   84.906 100.000 72.86  <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.825   Deviance explained = 83.2%
+GCV = 1285.5  Scale est. = 930.93    n = 2000
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+pbp.kcal ~ s(carb.kcal, k = 50) + s(Country, bs = "re")
+
+Parametric coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  166.538      1.042   159.9   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+                edf  Ref.df      F p-value    
+s(carb.kcal)  6.069   7.698 757.48  <2e-16 ***
+s(Country)   85.081 100.000  74.66  <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.926   Deviance explained = 92.9%
+GCV = 114.51  Scale est. = 81.684    n = 2000
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+protein.kcal ~ s(carb.kcal, k = 50) + s(Country, bs = "re")
+
+Parametric coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  332.260      3.578   92.87   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+                edf  Ref.df     F p-value    
+s(carb.kcal)  2.049   2.605 73.92  <2e-16 ***
+s(Country)   84.748 100.000 75.35  <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.799   Deviance explained = 80.8%
+GCV = 1396.7  Scale est. = 1014.1    n = 2000
+
+Method: GCV   Optimizer: magic
+Smoothing parameter selection converged after 6 iterations.
+The RMS GCV score gradient at convergence was 0.01546693 .
+The Hessian was positive definite.
+Model rank =  151 / 151 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                 k'    edf k-index p-value   
+s(carb.kcal)  49.00   2.53    0.96    0.01 **
+s(Country)   101.00  84.91      NA      NA   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Method: GCV   Optimizer: magic
+Smoothing parameter selection converged after 6 iterations.
+The RMS GCV score gradient at convergence was 0.0003491836 .
+The Hessian was positive definite.
+Model rank =  151 / 151 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                 k'    edf k-index p-value
+s(carb.kcal)  49.00   6.07    1.02     0.8
+s(Country)   101.00  85.08      NA      NA
+
+Method: GCV   Optimizer: magic
+Smoothing parameter selection converged after 7 iterations.
+The RMS GCV score gradient at convergence was 8.833405e-06 .
+The Hessian was positive definite.
+Model rank =  151 / 151 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                 k'    edf k-index p-value  
+s(carb.kcal)  49.00   2.05    0.95    0.02 *
+s(Country)   101.00  84.75      NA      NA  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+abp.kcal ~ s(fat.kcal, k = 50) + s(Country, bs = "re")
+
+Estimated degrees of freedom:
+ 3.9 71.9  total = 76.84 
+
+GCV score: 524.5246     
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+pbp.kcal ~ s(fat.kcal, k = 50) + s(Country, bs = "re")
+
+Estimated degrees of freedom:
+ 3.82 84.23  total = 89.04 
+
+GCV score: 401.0697     
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+protein.kcal ~ s(fat.kcal, k = 50) + s(Country, bs = "re")
+
+Estimated degrees of freedom:
+ 1.42 74.34  total = 76.76 
+
+GCV score: 869.0454     
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+abp.kcal ~ s(fat.kcal, k = 50) + s(Country, bs = "re")
+
+Parametric coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  195.336      1.496   130.6   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+               edf  Ref.df       F p-value    
+s(fat.kcal)  3.897   4.931 1005.91  <2e-16 ***
+s(Country)  71.942 100.000   36.76  <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.925   Deviance explained = 92.8%
+GCV = 524.52  Scale est. = 397.82    n = 2000
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+pbp.kcal ~ s(fat.kcal, k = 50) + s(Country, bs = "re")
+
+Parametric coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  168.959      1.921   87.94   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+               edf Ref.df     F p-value    
+s(fat.kcal)  3.816   4.86 18.52  <2e-16 ***
+s(Country)  84.227 100.00 48.43  <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.738   Deviance explained = 74.9%
+GCV = 401.07  Scale est. = 289.73    n = 2000
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+protein.kcal ~ s(fat.kcal, k = 50) + s(Country, bs = "re")
+
+Parametric coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  363.456      2.049   177.4   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+               edf  Ref.df       F p-value    
+s(fat.kcal)  1.416   1.706 1411.91  <2e-16 ***
+s(Country)  74.340 100.000   31.29  <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.869   Deviance explained = 87.4%
+GCV = 869.05  Scale est. = 659.33    n = 2000
+
+Method: GCV   Optimizer: magic
+Smoothing parameter selection converged after 6 iterations.
+The RMS GCV score gradient at convergence was 0.002961536 .
+The Hessian was positive definite.
+Model rank =  151 / 151 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+               k'   edf k-index p-value
+s(fat.kcal)  49.0   3.9       1    0.59
+s(Country)  101.0  71.9      NA      NA
+
+Method: GCV   Optimizer: magic
+Smoothing parameter selection converged after 6 iterations.
+The RMS GCV score gradient at convergence was 0.001765743 .
+The Hessian was positive definite.
+Model rank =  151 / 151 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                k'    edf k-index p-value    
+s(fat.kcal)  49.00   3.82    0.92  <2e-16 ***
+s(Country)  101.00  84.23      NA      NA    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Method: GCV   Optimizer: magic
+Smoothing parameter selection converged after 16 iterations.
+The RMS GCV score gradient at convergence was 0.0004344486 .
+The Hessian was positive definite.
+Model rank =  151 / 151 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                k'    edf k-index p-value  
+s(fat.kcal)  49.00   1.42    0.97   0.065 .
+s(Country)  101.00  74.34      NA      NA  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

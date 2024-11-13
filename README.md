@@ -1,4 +1,4 @@
-**code_cleaning** folder contains all R scripts for cleaning all the publically available datasets specified in the 'Associations Between National Plant-Based vs Animal-Based   Protein   Supplies   and  Age-Specific   Mortality   in Human Populations' manuscript. 
-**data_cleaned** contains all cleaned data output as in code_cleaning files
-**code_analysis** uses file from data_cleaned. It contains all R scripts required to run the analyses for the figures and tables in the 'Associations Between National Plant-Based vs Animal-Based   Protein   Supplies   and  Age-Specific   Mortality   in Human Populations' manuscript. 
-**analysis_output** contains optimization files generated from the 'Figure_5_optimization.R' script. It also contained a folder to which figures are/can be saved from the **code_analysis** scripts. 
+-- **code_cleaning** folder contains all R scripts for cleaning all the publically available datasets specified in the 'Associations Between National Plant-Based vs Animal-Based   Protein   Supplies   and  Age-Specific   Mortality   in Human Populations' manuscript. 
+-- **data_cleaned** contains all cleaned data output as in code_cleaning files
+-- **code_analysis** uses file from data_cleaned. It contains all R scripts required to run the analyses for the figures and tables in the 'Associations Between National Plant-Based vs Animal-Based   Protein   Supplies   and  Age-Specific   Mortality   in Human Populations' manuscript. 
+-- **analysis_output** contains optimization files generated from the 'Figure_5_optimization.R' script. It also contained a folder to which figures are/can be saved from the **code_analysis** scripts. 

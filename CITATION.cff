@@ -1,0 +1,24 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: R
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Caitlin J
+    family-names: Andrews
+    affiliation: 'Charles Perkins Centre, The University of Sydney'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.14963539
+    description: DOI of version 1.0.0
+repository-code: 'https://github.com/cand8403/ABP_PBP_FS.git'
+url: 'https://github.com/cand8403/ABP_PBP_FS.git'
+abstract: >-
+  R Code for Analysis in: Associations Between National
+  Plant-Based vs Animal-Based Protein Supplies and
+  Age-Specific Mortality in Human Populations
+date-released: '2025-04-03'

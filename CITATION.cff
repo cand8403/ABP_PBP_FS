@@ -1,12 +1,12 @@
 # This CITATION.cff file was generated with cffinit.
-# Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: R
+title: Associations Between National
+  Plant-Based vs Animal-Based Protein Supplies and
+  Age-Specific Mortality in Human Populations
 message: >-
   If you use this software, please cite it using the
   metadata from this file.
-type: software
 authors:
   - given-names: Caitlin J
     family-names: Andrews
